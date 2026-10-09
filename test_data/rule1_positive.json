@@ -1,0 +1,28 @@
+
+[
+  {
+    "TenantId": "54b708be-a187-41a9-bb08-c8f8d95d5e2f",
+    "SourceSystem": "OpsManager",
+    "TimeGenerated": "2026-10-09T08:23:00.2057707Z",
+    "Source": "Microsoft-Windows-Sysmon",
+    "EventLog": "Microsoft-Windows-Sysmon/Operational",
+    "Computer": "dc1-mon",
+    "EventLevel": 4,
+    "EventLevelName": "Information",
+    "EventID": 1,
+    "EventCategory": 1,
+    "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "CommandLine": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoProfile -NonInteractive -Command \"W`r`i`t`e-O`u`tput 'Sysmon detection test'\"",
+    "ParameterXml": "<Param>-</Param><Param>2026-10-09 08:23:00.199</Param><Param>{3d7a6f6f-813e-67bc-9a01-000000000301}</Param><Param>2456</Param><Param>C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe</Param><Param>10.0.19041.1</Param><Param>Windows PowerShell</Param><Param>Microsoft Windows Operating System</Param><Param>Microsoft Corporation</Param><Param>PowerShell.EXE</Param><Param>C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoProfile -NonInteractive -Command \"W`r`i`t`e-O`u`tput 'Sysmon detection test'\"</Param><Param>C:\\Windows\\system32\\</Param><Param>DEMO\\analyst</Param><Param>{3d7a6f6f-804b-67bc-e703-000000000001}</Param><Param>0x12345</Param><Param>1</Param><Param>High</Param><Param>-</Param><Param>{3d7a6f6f-813e-67bc-9a01-000000000300}</Param><Param>1520</Param><Param>C:\\Windows\\System32\\cmd.exe</Param><Param>C:\\Windows\\System32\\cmd.exe</Param><Param>DEMO\\analyst</Param>",
+    "EventData": "<DataItem Type=\"System.XmlData\" time=\"2026-10-09T08:23:00.205770700Z\" sourceHealthServiceId=\"1f1a93bd-0db8-40a2-87fb-7c7c5393226e\"><EventData xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><Data Name=\"RuleName\">-</Data><Data Name=\"UtcTime\">2026-10-09 08:23:00.199</Data><Data Name=\"ProcessGuid\">{3d7a6f6f-813e-67bc-9a01-000000000301}</Data><Data Name=\"ProcessId\">2456</Data><Data Name=\"Image\">C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe</Data><Data Name=\"FileVersion\">10.0.19041.1</Data><Data Name=\"Description\">Windows PowerShell</Data><Data Name=\"Product\">Microsoft Windows Operating System</Data><Data Name=\"Company\">Microsoft Corporation</Data><Data Name=\"OriginalFileName\">PowerShell.EXE</Data><Data Name=\"CommandLine\">C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoProfile -NonInteractive -Command \"W`r`i`t`e-O`u`tput 'Sysmon detection test'\"</Data><Data Name=\"CurrentDirectory\">C:\\Windows\\system32\\</Data><Data Name=\"User\">DEMO\\analyst</Data><Data Name=\"LogonGuid\">{3d7a6f6f-804b-67bc-e703-000000000001}</Data><Data Name=\"LogonId\">0x12345</Data><Data Name=\"TerminalSessionId\">1</Data><Data Name=\"IntegrityLevel\">High</Data><Data Name=\"Hashes\">-</Data><Data Name=\"ParentProcessGuid\">{3d7a6f6f-813e-67bc-9a01-000000000300}</Data><Data Name=\"ParentProcessId\">1520</Data><Data Name=\"ParentImage\">C:\\Windows\\System32\\cmd.exe</Data><Data Name=\"ParentCommandLine\">C:\\Windows\\System32\\cmd.exe</Data><Data Name=\"ParentUser\">DEMO\\analyst</Data></EventData></DataItem>",
+    "RenderedDescription": "Process Create: RuleName: - UtcTime: 2026-10-09 08:23:00.199 ProcessGuid: {3d7a6f6f-813e-67bc-9a01-000000000301} ProcessId: 2456 Image: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe FileVersion: 10.0.19041.1 Description: Windows PowerShell Product: Microsoft Windows Operating System Company: Microsoft Corporation OriginalFileName: PowerShell.EXE CommandLine: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoProfile -NonInteractive -Command \"W`r`i`t`e-O`u`tput 'Sysmon detection test'\" CurrentDirectory: C:\\Windows\\system32\\ User: DEMO\\analyst LogonGuid: {3d7a6f6f-804b-67bc-e703-000000000001} LogonId: 0x12345 TerminalSessionId: 1 IntegrityLevel: High Hashes: - ParentProcessGuid: {3d7a6f6f-813e-67bc-9a01-000000000300} ParentProcessId: 1520 ParentImage: C:\\Windows\\System32\\cmd.exe ParentCommandLine: C:\\Windows\\System32\\cmd.exe ParentUser: DEMO\\analyst",
+    "AzureDeploymentID": "",
+    "Role": "",
+    "UserName": "DEMO\\analyst",
+    "Message": "",
+    "MG": "00000000-0000-0000-0000-000000000001",
+    "ManagementGroupName": "AOI-54b708be-a187-41a9-bb08-c8f8d95d5e2f",
+    "Type": "Event",
+    "_ResourceId": "/subscriptions/562db19c-f304-45df-8cc6-e93f7daed8cb/resourcegroups/purplecloud-00o69/providers/microsoft.compute/virtualmachines/dc1"
+  }
+]
